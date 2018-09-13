@@ -1,0 +1,43 @@
+{
+  "name": "actweb/mail-auth",
+  "description": "Mail server authentication class, allows authenticating users against POP/IMAP/SMTP with or without SSL",
+  "version": "0.5",
+  "type": "library",
+  "keywords": [
+    "pop3",
+    "pop3s",
+    "imap",
+    "imaps",
+    "smtp",
+    "smtps",
+    "authenticate",
+    "auth"
+  ],
+  "homepage": "https://actweb.co.uk/php/actweb/mailauth",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Matt Lowe",
+      "email": "packagist@actweb.co.uk",
+      "homepage": "https://actweb.co.uk/php/who",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "packagist@actweb.co.uk"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.actweb.co.uk"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "1.9.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Actweb\\": "src/"
+    }
+  }
+}
