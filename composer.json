@@ -33,7 +33,8 @@
     }
   ],
   "require": {
-    "monolog/monolog": "1.9.*"
+    "monolog/monolog": "1.9.*",
+    "ext-imap": "*"
   },
   "autoload": {
     "psr-4": {
