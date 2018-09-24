@@ -164,7 +164,7 @@ class MailAuth
      */
     public function __construct($log = null)
     {
-        $this->logger = new Logger('mailAuth');
+        //$this->logger = new Logger('mailAuth');
         if ($log === null) {
             $this->logger->pushHandler(new NullHandler());
         } else {
