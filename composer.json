@@ -1,7 +1,7 @@
 {
   "name": "actweb/mail-auth",
   "description": "Mail server authentication class, allows authenticating users against POP/IMAP/SMTP with or without SSL",
-  "version": "0.5",
+  "version": "0.6",
   "type": "library",
   "keywords": [
     "pop3",

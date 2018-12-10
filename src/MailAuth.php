@@ -280,7 +280,7 @@ class MailAuth
         $this->debug('Attempting IMAP connect', $command);
         // Added 0 retries to avoid getting banned for invalid user/pass
         set_error_handler(array($this, 'errorHandler'));
-        $imap = imap_open($command, $this->username, $this->password, 0, 0);
+        $imap = \imap_open($command, $this->username, $this->password, 0, 0);
         restore_error_handler();
         if (false !== $imap) {
             imap_close($imap);
